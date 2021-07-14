@@ -86,16 +86,16 @@
     align-items: center;
   }
   .heroDescription {
-    width: 20rem;
+    width: 22rem;
   }
   .hero-img {
-    width: 16rem;
+    width: 18rem;
   }
   .author {
-    font-size: 22px;
+    font-size: 23px;
   }
   .greeting {
-    font-size: 20px;
+    font-size: 21px;
   }
   .socialResume {
     flex-direction: column;
