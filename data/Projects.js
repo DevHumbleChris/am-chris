@@ -109,7 +109,7 @@ const Projects = [
       'JavaScript',
       'Vanilla CSS'
     ],
-    imgPath: 'github-api.png',
+    imgPath: 'blackjack-game.png',
     projectInfo: [
       'Completely built with pure JavaScript (Vanilla) and CSS.',
       'Orientation for smaller display was put in place.'
