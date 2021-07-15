@@ -11,11 +11,11 @@
     <article class="articleContainer p-6 bg-white rounded shadow">
       <p class="p-2">
         I used to write poems but now I got focused into writing codes 😍. I am passionate about
-        <span>JavaScript 💯</span>
+        <span class="secretColor">JavaScript 💯</span>
         and its all related stacks. Recently I did finish my Diploma studies in
-        <span>Information Communication Technology</span>
+        <span class="secretColor">Information Communication Technology</span>
         at
-        <span>Kenya Coast National Polytechnic</span>
+        <span class="text-pink-700">Kenya Coast National Polytechnic</span>
         .
       </p>
       <p class="p-2">
@@ -47,6 +47,9 @@
   width: 50px;
   height: 1px;
   background-color: #000;
+}
+.secretColor {
+  color: #8444d8;
 }
 
 @media screen and (max-width: 640px) {
