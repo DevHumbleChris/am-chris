@@ -48,6 +48,9 @@
             <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
               <font-awesome-icon :icon="['fab', 'linkedin']" />
             </button>
+            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+              <font-awesome-icon :icon="['fab', 'whatsapp']" />
+            </button>
           </div>
         </div>
       </div>

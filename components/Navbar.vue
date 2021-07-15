@@ -12,12 +12,12 @@
       <div :class="{'hidden': !showMenu, 'flex': showMenu}" class="lg:flex lg:flex-grow items-center">
         <ul class="flex flex-col lg:flex-row list-none ml-auto">
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#about">
               <font-awesome-icon :icon="['fas', 'user-astronaut']" class="text-lg leading-lg text-white opacity-75" /><span class="ml-2">About Me</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#skills">
               <font-awesome-icon :icon="['fas', 'brain']" class="text-lg leading-lg text-white opacity-75" /><span class="ml-2">Skills</span>
             </a>
           </li>
