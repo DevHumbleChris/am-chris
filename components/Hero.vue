@@ -1,5 +1,5 @@
 <template>
-  <div class="Hero p-12 flex">
+  <div class="Hero p-12 flex my-2">
     <div class="hero-img text-center">
       <img src="~assets/images/PicsArt_03-29-11.57.48.jpg" alt="My Pic" class="rounded-full object-cover">
     </div>
@@ -58,7 +58,7 @@
 <style>
 .Hero {
   margin: auto;
-  width: 1000px;
+  width: 1200px;
 }
 .text-emphasis {
   color: #8444d8;

@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="About p-4">
+  <section id="about" class="About p-4 my-2">
     <div class="sectionHead my-4 relative">
       <span class="font-semibold text-sm">
         SOME INFO
@@ -33,7 +33,7 @@
 <style>
 .About {
   margin: auto;
-  width: 1000px;
+  width: 1200px;
   /* background: green; */
 }
 .sectionHead span{

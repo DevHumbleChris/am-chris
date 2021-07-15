@@ -2,6 +2,7 @@
   <section>
     <Hero />
     <About />
+    <Skills />
   </section>
 </template>
 
