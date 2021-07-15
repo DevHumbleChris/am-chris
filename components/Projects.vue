@@ -22,9 +22,13 @@
           </div>
           <div class="my-2 font-semibold">
             Technologies Used:
-            <span class="secretColor">
-              React, Vuejs
+            <span v-for="(techUsed, count) in project.technologiesUsed" :key="count" class="secretColor">
+              {{ techUsed }}
+              <span v-if="count < project.technologiesUsed.length - 1">
+                ,
+              </span>
             </span>
+            .
           </div>
           <ul class="list-disc p-3">
             <li v-for="(info, x) in project.projectInfo" :key="x">
