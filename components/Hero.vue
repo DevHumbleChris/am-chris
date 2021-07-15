@@ -80,22 +80,22 @@
 @media screen and (max-width: 640px) {
   .Hero {
     margin: auto;
-    width: 23rem;
+    width: 22.5rem;
     padding: 0;
     flex-direction: column;
     align-items: center;
   }
   .heroDescription {
-    width: 22rem;
+    width: 21.5rem;
   }
   .hero-img {
-    width: 18rem;
+    width: 17rem;
   }
   .author {
-    font-size: 23px;
+    font-size: 22px;
   }
   .greeting {
-    font-size: 21px;
+    font-size: 20px;
   }
   .socialResume {
     flex-direction: column;
