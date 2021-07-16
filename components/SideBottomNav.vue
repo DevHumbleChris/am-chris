@@ -1,25 +1,55 @@
 <template>
   <div class="sideBottomNav fixed">
-    <div class="bottomNav">
+    <NuxtLink to="#" class="bottomNav">
       <font-awesome-icon :icon="['far', 'newspaper']" />
       <div>
         Blog
       </div>
-    </div>
-    <div class="bottomNav">
+    </NuxtLink>
+    <NuxtLink to="#" class="bottomNav">
       <font-awesome-icon :icon="['fas', 'user-astronaut']" />
       <div>
         Portfolio
       </div>
-    </div>
+    </NuxtLink>
     <div class="bottomNav">
       <font-awesome-icon :icon="['fab', 'whatsapp']" />
       <div>
         WhatsApp
       </div>
     </div>
+    <NuxtLink to="#" class="bottomNav">
+      <font-awesome-icon :icon="['fas', 'heartbeat']" />
+      <div>
+        Support Me
+      </div>
+    </NuxtLink>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'SideBottomNav',
+  data () {
+    return {
+    }
+  },
+  mounted () {
+    this.scroll()
+  },
+  methods: {
+    scroll () {
+      let bottomOfWindow
+      window.onscroll = () => {
+        bottomOfWindow = Math.max(window.pageYOffset, document.documentElement.scrollTop, document.body.scrollTop) + window.innerHeight === document.documentElement.offsetHeight
+      }
+      if (bottomOfWindow) {
+        alert('Am At The Bottom!')
+      }
+    }
+  }
+}
+</script>
 
 <style>
 @media screen and (max-width: 640px) {
