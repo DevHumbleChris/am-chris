@@ -111,9 +111,8 @@
     padding: 0;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .Hero {
-    background: blue;
     margin: auto;
     width: 22.5rem;
     padding: 0;
