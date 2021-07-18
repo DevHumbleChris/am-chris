@@ -35,7 +35,7 @@
             <font-awesome-icon :icon="['fas', 'download']" />
             Resume
           </button>
-          <div class="p-2">
+          <div class="resumeBtn p-2">
             <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
               <font-awesome-icon :icon="['fab', 'facebook-square']" />
             </button>
@@ -80,7 +80,64 @@
   font-size: 18px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
+  .Hero {
+    margin: auto;
+    width: 20rem;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroDescription {
+    width: 19.5rem;
+  }
+  .hero-img {
+    width: 15rem;
+  }
+  .author {
+    font-size: 20px;
+  }
+  .greeting {
+    font-size: 19px;
+  }
+  .socialResume {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnIcon {
+    font-size: 14px;
+  }
+  .resumeBtn {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Hero {
+    background: blue;
+    margin: auto;
+    width: 22.5rem;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroDescription {
+    width: 21.5rem;
+  }
+  .hero-img {
+    width: 17rem;
+  }
+  .author {
+    font-size: 22px;
+  }
+  .greeting {
+    font-size: 20px;
+  }
+  .socialResume {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 600px) {
   .Hero {
     margin: auto;
     width: 22.5rem;

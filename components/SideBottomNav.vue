@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style>
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 320px) {
   .sideBottomNav {
     background: #f7f7f7;
     bottom: 0;
@@ -60,7 +60,7 @@ export default {
     right: 0;
     display: flex;
     flex-direction: row;
-    padding: 0.5rem;
+    padding: 0.2rem;
     justify-content: center;
   }
   .bottomNav {
@@ -68,8 +68,30 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.2rem;
-    margin-left: 15px;
+    padding: 0.1rem;
+    margin-left: 10px;
+    color: #8444d8;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sideBottomNav {
+    background: #f7f7f7;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0.3rem;
+    justify-content: center;
+  }
+  .bottomNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1rem;
+    margin-left: 10px;
     color: #8444d8;
   }
 }
