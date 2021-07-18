@@ -5,7 +5,7 @@
     </div>
     <div class="heroDescription p-6 ml-10">
       <p class="greeting text-2xl my-2">
-        HI THERE 👋, I AM Grace Mwikali
+        HI THERE 👋, I AM
       </p>
       <h1 class="font-extrabold text-4xl my-2 author">
         <span class="text-emphasis">

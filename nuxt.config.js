@@ -14,14 +14,15 @@ export default {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Quicksand&display=swap'
       }
-    ],
-    script: [
-      {
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-        'data-ad-client': 'ca-pub-3746184466940142',
-        async: true
-      }
     ]
+    // ,
+    // script: [
+    //   {
+    //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+    //     'data-ad-client': 'ca-pub-3746184466940142',
+    //     async: true
+    //   }
+    // ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
