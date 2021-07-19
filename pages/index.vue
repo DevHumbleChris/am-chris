@@ -4,6 +4,8 @@
     <About />
     <Skills />
     <Projects />
+    <Contact />
+    <Footer />
   </section>
 </template>
 
