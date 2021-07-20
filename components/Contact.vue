@@ -14,14 +14,14 @@
         <font-awesome-icon :icon="['fab', 'mailchimp']" />
       </div>
       <form class="p-4 my-2 text-semibold shadow" @submit.prevent="contactFormHandler">
-        <div v-if="mailSent" class="text-black px-6 py-4 border-0 rounded relative mb-4 bg-green-200">
-          <span class="text-xl inline-block mr-5 align-middle">
-            <font-awesome-icon :icon="['far', 'check-circle']" class="text-green-600"/>
+        <div v-if="mailSent" class="text-blue-500 px-6 py-4 border-0 rounded relative mb-4 bg-green-200 text-center">
+          <span class="text-2xl inline-block mr-5 align-middle">
+            <font-awesome-icon :icon="['far', 'check-circle']" class="text-green-600" />
           </span>
           <span class="inline-block align-middle mr-8">
             <b class="capitalize">Message Sent Successfully!</b>
           </span>
-          <button class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none" v-on:click="closeAlert()">
+          <button class="absolute bg-transparent text-2xl font-semibold leading-none right-0 top-0 mt-4 mr-6 outline-none focus:outline-none" @click="closeAlert()">
             <span>×</span>
           </button>
         </div>
