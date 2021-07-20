@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --fix . --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js",
-    "heroku-postbuild": "yarn run build && yarn start"
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
