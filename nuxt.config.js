@@ -44,6 +44,10 @@ export default {
     '@nuxtjs/tailwindcss'
   ],
 
+  serverMiddleware: [
+    "~/api/index.js"
+  ],
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
