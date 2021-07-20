@@ -84,8 +84,8 @@ export default {
       this.subject = ''
       this.name = ''
       this.mailSent = true
-    }
-    closeAlert (){
+    },
+    closeAlert () {
       this.mailSent = false
     }
   }
