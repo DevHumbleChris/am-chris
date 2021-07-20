@@ -75,7 +75,10 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseUrl: `http://localhost:${process.env.PORT || process.env.API_PORT || 3000}${process.env.API_PREFIX || '/'}`
+    browserBaseURL: "/"
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -83,7 +86,7 @@ export default {
       lang: 'en'
     }
   },
-  
+
   debug: true,
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
