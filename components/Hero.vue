@@ -31,26 +31,26 @@
         </span>
         stack, but still exploring other technologies and frameworks that catch my interest!
         <div class="socialResume p-3 flex">
-          <button class="text-base bg-pink-700 text-white hover:text-white hover:bg-pink-500 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+          <a class="text-base bg-pink-700 text-white hover:text-white hover:bg-pink-500 font-bold uppercase text-sm px-6 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="/files/resume.pdf">
             <font-awesome-icon :icon="['fas', 'download']" />
             Resume
-          </button>
+          </a>
           <div class="resumeBtn p-2">
-            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+            <a class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="https://www.facebook.com/profile.php?id=100011196098630" target="_blank">
               <font-awesome-icon :icon="['fab', 'facebook-square']" />
-            </button>
-            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+            </a>
+            <a class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="https://twitter.com/AmChrisKE" target="_blank">
               <font-awesome-icon :icon="['fab', 'twitter-square']" />
-            </button>
-            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+            </a>
+            <a class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="https://github.com/DevHumbleChris" target="_blank">
               <font-awesome-icon :icon="['fab', 'github-square']" />
-            </button>
-            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+            </a>
+            <a class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="https://www.linkedin.com/in/christopher-odhiambo-2870331aa/" target="_blank">
               <font-awesome-icon :icon="['fab', 'linkedin']" />
-            </button>
-            <button class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+            </a>
+            <a class="w-10 bg-white btnIcon p-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" href="https://wa.me/message/BSLLTZE6NKUIF1" target="_blank">
               <font-awesome-icon :icon="['fab', 'whatsapp']" />
-            </button>
+            </a>
           </div>
         </div>
       </div>

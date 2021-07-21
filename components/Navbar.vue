@@ -27,7 +27,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+            <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#contact">
               <font-awesome-icon :icon="['fas', 'address-card']" class="text-lg leading-lg text-white opacity-75" /><span class="ml-2">Contacts</span>
             </a>
           </li>
